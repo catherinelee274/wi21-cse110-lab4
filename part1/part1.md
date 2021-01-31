@@ -43,4 +43,14 @@ because i stops when i is greater than or equal to the length of the prices arra
 16. The == compares two values but doesn't take into account data type, which is why 2 == '2' returns true but 2 === '2' does not. The === operator takes into account datatypes when comparing.
 17. 2 is not equal to True because 1 is the value that is equal to True. Therefore it then checks the else if condition. The else if condition is true so it prints "How are you?"
 18. 
+``` 
+for (const [key, value] of   Object.entries(statistics)) {
+    if(key[0] == 'r' || value%2 != 0){
+        console.log(value);
+    }
+}
+```
+19.  New array would be [6,8,10]. In line 4, you are inputting the current value of the array. The first value you input is 1. It goes into doSomething and adds 2 to 1 and then goes into the function is specified as the callback so it multiplies by 2 so that would be 3*2 = 6 for the first val in new array.It then appends that value of 6 to the array. It does the same for 2 so it becomes 4 in do something then gets multiplied by 2 = 8. Then finally we have 3+2=5 and then 5mult2 = 10.
+20. sdlfksd
+21. The output is `1 4 3 2` because there is a delay for 3 and 2.
 

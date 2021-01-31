@@ -7,6 +7,8 @@ let statistics = {
     rareCars:2
 };
 
-for (const [key, value] of Object.entries(object1)) {
-    console.log(`${key}: ${value}`);
-  }
+for (const [key, value] of Object.entries(statistics)) {
+    if(key[0] == 'r' || value%2 != 0){
+        console.log(value);
+    }
+}
