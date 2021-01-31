@@ -51,6 +51,6 @@ for (const [key, value] of   Object.entries(statistics)) {
 }
 ```
 19.  New array would be [6,8,10]. In line 4, you are inputting the current value of the array. The first value you input is 1. It goes into doSomething and adds 2 to 1 and then goes into the function is specified as the callback so it multiplies by 2 so that would be 3*2 = 6 for the first val in new array.It then appends that value of 6 to the array. It does the same for 2 so it becomes 4 in do something then gets multiplied by 2 = 8. Then finally we have 3+2=5 and then 5mult2 = 10.
-20. sdlfksd
+20. code in file
 21. The output is `1 4 3 2` because there is a delay for 3 and 2.
 
